@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Player2Logic",
-    "path":"folders/Objects/Player2Logic.yy",
+    "path":"folders/Rooms/Player2Logic.yy",
   },
   "parentObjectId":null,
   "persistent":false,

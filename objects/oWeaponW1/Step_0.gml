@@ -13,6 +13,7 @@ if(onPlayer>0)
 if (keyboard_check(ord("S")) && onPlayer)
 {
 	onPlayer=0
+	oPlayer1.has_item = 0
 	xSpeed = 6 * oPlayer1.facing
 	ySpeed -= grav * 3
 }
