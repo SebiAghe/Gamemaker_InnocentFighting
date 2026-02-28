@@ -12,4 +12,5 @@ max_jump_hold = 10
 
 facing = 1 
 
+useless = 0
 
