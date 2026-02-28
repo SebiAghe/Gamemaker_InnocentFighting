@@ -49,7 +49,8 @@ var cupcake_instance = instance_place(x, y, oWeapon)
 if(cupcake_instance != noone)
 {
 	with(cupcake_instance) instance_destroy()
-	instance_create_layer(x + 4, y + 16, "Instances", oWeaponW1);
+	instance_create_layer(x + 4, y + 16, "Instances", oWeaponW2);
+	spawn_timer2=200
 }
 
 var plate_instance = instance_place(x, y, oPlate)
@@ -57,5 +58,27 @@ var plate_instance = instance_place(x, y, oPlate)
 if(plate_instance != noone)
 {
 	with(plate_instance) instance_destroy()
-	instance_create_layer(x + 4, y + 16, "Instances", oPlateW1);
+	instance_create_layer(x + 4, y + 16, "Instances", oPlateW2);
+	spawn_timer_p2=200;
+}
+
+
+if (spawn_timer2 > 0)
+{
+    spawn_timer2--;
+
+    if (spawn_timer2 == 0)
+    {
+        instance_create_layer(304, 255, "Instances", oWeapon);
+    }
+}
+
+if (spawn_timer_p2 > 0)
+{
+    spawn_timer_p2--;
+
+    if (spawn_timer_p2 == 0)
+    {
+        instance_create_layer(160, 255, "Instances", oPlate);
+    }
 }

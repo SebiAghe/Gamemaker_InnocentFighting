@@ -16,3 +16,6 @@ facing2 = 1
 
 useless2 = 0
 
+spawn_timer2=0
+
+spawn_timer_p2=0
