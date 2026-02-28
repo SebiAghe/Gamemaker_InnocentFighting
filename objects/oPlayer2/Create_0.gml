@@ -1,4 +1,8 @@
 window_set_size(1280, 720);
+window_set_fullscreen(!window_get_fullscreen());
+
+max_hp = 100
+hp = max_hp
 
 movement_speed2=3
 
@@ -16,3 +20,6 @@ facing2 = 1
 
 useless2 = 0
 
+spawn_timer2=0
+
+spawn_timer_p2=0

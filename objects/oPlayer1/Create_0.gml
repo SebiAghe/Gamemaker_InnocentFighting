@@ -19,3 +19,6 @@ useless = 0
 spawn_timer=0
 
 spawn_timer_p=0
+
+max_hp = 100
+hp = max_hp
