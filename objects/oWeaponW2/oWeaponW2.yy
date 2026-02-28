@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Weapon2",
-    "path":"folders/Objects/Player2Logic/Weapon2.yy",
+    "path":"folders/Rooms/Player2Logic/Weapon2.yy",
   },
   "parentObjectId":null,
   "persistent":false,
