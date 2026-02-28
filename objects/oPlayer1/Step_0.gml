@@ -43,7 +43,6 @@ else
 }
 
 move_and_collide(x_speed, y_speed, oGround1)
-move_and_collide(x_speed, y_speed, oWall)
 
 var cupcake_instance = instance_place(x, y, oWeapon)
 

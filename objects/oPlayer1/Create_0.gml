@@ -1,3 +1,5 @@
+window_set_size(1280, 720);
+
 movement_speed=3
 
 grav = 5
