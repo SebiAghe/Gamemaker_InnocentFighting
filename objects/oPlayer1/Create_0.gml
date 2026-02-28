@@ -10,4 +10,6 @@ x_speed =0
 jump_hold_time = 0;
 max_jump_hold = 10; 
 
+facing = 1 
+
 

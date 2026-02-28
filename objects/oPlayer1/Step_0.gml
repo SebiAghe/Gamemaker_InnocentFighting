@@ -10,13 +10,15 @@ if(y_speed>max_fall)
 	y_speed=max_fall
 }
 
-
+image_xscale = facing
 
 if (keyboard_check(ord("D"))) { // if the d key is pressed 
-    x_speed = movement_speed //add the movement speed to the x_speed variable 
+	facing = 1
+	x_speed = movement_speed //add the movement speed to the x_speed variable 
 } 
 if (keyboard_check(ord("A")))
 {
+	facing = -1
     x_speed = -movement_speed
 }
 
