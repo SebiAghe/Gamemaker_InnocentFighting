@@ -51,3 +51,11 @@ if(cupcake_instance != noone)
 	with(cupcake_instance) instance_destroy()
 	instance_create_layer(x + 4, y + 16, "Instances", oWeaponW1);
 }
+
+var plate_instance = instance_place(x, y, oPlate)
+
+if(plate_instance != noone)
+{
+	with(plate_instance) instance_destroy()
+	instance_create_layer(x + 4, y + 16, "Instances", oPlateW1);
+}
