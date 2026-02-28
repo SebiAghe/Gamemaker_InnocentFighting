@@ -54,6 +54,7 @@
     {"id":{"name":"play","path":"objects/play/play.yy",},},
     {"id":{"name":"tit","path":"objects/tit/tit.yy",},},
     {"id":{"name":"Arena","path":"rooms/Arena/Arena.yy",},},
+    {"id":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"id":{"name":"title","path":"rooms/title/title.yy",},},
     {"id":{"name":"CreateChar_1","path":"scripts/CreateChar_1/CreateChar_1.yy",},},
     {"id":{"name":"bgbasic","path":"sprites/bgbasic/bgbasic.yy",},},
@@ -79,6 +80,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"title","path":"rooms/title/title.yy",},},
     {"roomId":{"name":"Arena","path":"rooms/Arena/Arena.yy",},},
+    {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

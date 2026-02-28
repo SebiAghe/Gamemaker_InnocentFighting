@@ -10,6 +10,7 @@ if(bool (onPlayer))
 if (keyboard_check(ord("S")) && onPlayer)
 {
 	onPlayer=0
+	oPlayer1.has_item = 0
 	xSpeed = 5 * oPlayer1.facing
 	directi = oPlayer1.facing
 }

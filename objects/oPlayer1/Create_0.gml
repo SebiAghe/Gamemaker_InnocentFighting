@@ -1,4 +1,4 @@
-window_set_size(1280, 720);
+
 
 movement_speed=3
 
@@ -22,3 +22,5 @@ spawn_timer_p=0
 
 max_hp = 100
 hp = max_hp
+
+has_item = 0
