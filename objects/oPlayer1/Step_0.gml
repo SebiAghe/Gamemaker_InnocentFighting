@@ -46,8 +46,9 @@ move_and_collide(x_speed, y_speed, oGround1)
 
 var cupcake_instance = instance_place(x, y, oWeapon)
 
-if(cupcake_instance != noone)
+if(cupcake_instance != noone && !has_item)
 {
+	has_item = 1
 	with(cupcake_instance) instance_destroy()
 	instance_create_layer(x + 4, y + 16, "Instances", oWeaponW1);
 	spawn_timer = 200
@@ -55,8 +56,9 @@ if(cupcake_instance != noone)
 
 var plate_instance = instance_place(x, y, oPlate)
 
-if(plate_instance != noone)
+if(plate_instance != noone && !has_item)
 {
+	has_item = 1
 	with(plate_instance) instance_destroy()
 	instance_create_layer(x + 4, y + 16, "Instances", oPlateW1);
 	spawn_timer_p = 200
@@ -107,5 +109,5 @@ if (dmg_instance_c != noone)
 }
 
 
-
-
+if(hp == 0)
+	instance_destroy()

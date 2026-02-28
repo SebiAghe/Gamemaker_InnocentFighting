@@ -13,6 +13,7 @@ if(onPlayer2>0)
 if (keyboard_check(vk_down) && onPlayer2)
 {
 	onPlayer2=0
+	oPlayer2.has_item = 0
 	xSpeed2 = 6 * oPlayer2.facing2
 	ySpeed2 -= grav2 * 3
 }

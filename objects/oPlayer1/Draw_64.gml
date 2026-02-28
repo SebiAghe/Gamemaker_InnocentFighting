@@ -17,3 +17,4 @@ draw_rectangle(
 
 draw_set_color(c_white);
 draw_text(20, 5, "HP: " + string(hp) + " / " + string(max_hp));
+
