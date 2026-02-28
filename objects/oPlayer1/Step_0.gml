@@ -81,3 +81,31 @@ if (spawn_timer_p > 0)
         instance_create_layer(160, 255, "Instances", oPlate);
     }
 }
+
+var dmg_instance = instance_place(x, y, oPlateW2)
+
+if (dmg_instance != noone)
+{
+    hp -= 25;
+
+    with (dmg_instance)
+    {
+        instance_destroy();
+    }
+}
+
+var dmg_instance_c = instance_place(x, y, oWeaponW2)
+
+if (dmg_instance_c != noone)
+{
+    hp -= 25;
+
+    with (dmg_instance_c)
+    {
+        instance_destroy();
+    }
+}
+
+
+
+

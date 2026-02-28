@@ -1,5 +1,8 @@
 window_set_size(1280, 720);
 
+max_hp = 100
+hp = max_hp
+
 movement_speed2=3
 
 grav2 = 5
