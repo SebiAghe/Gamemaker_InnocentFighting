@@ -1,10 +1,10 @@
-
-
-
-if(bool (onPlayer))
+if(onPlayer>0)
 {
-	x = oPlayer1.x;
-	y = oPlayer1.y;
+	if(oPlayer1.facing == 1)
+		x = oPlayer1.x + 10 * oPlayer1.facing;
+	else
+		x = oPlayer1.x + 25 * oPlayer1.facing;
+	y = oPlayer1.y-5;
 }
 
 
@@ -17,7 +17,7 @@ if (keyboard_check(ord("S")) && onPlayer)
 	ySpeed -= grav * 3
 }
 
-var on_ground = place_meeting(x, y + 1, oGround1)
+var on_ground = place_meeting(x, y + 1, oGround1) || place_meeting(x+1, y, oGround1) || place_meeting(x-1, y, oGround1)
 
 if(!onPlayer)
 {
@@ -27,7 +27,9 @@ if(!onPlayer)
 		ySpeed -= grav
 	}
 	
-	move_and_collide(xSpeed,ySpeed,oGround1)
+	if(!on_ground)
+		move_and_collide(xSpeed,ySpeed,oGround1)
+		
 	if(!on_ground)
 	{
 		detonate = 100
@@ -41,10 +43,6 @@ if(on_ground && !onPlayer)
 	detonate--
 	if(detonate == 0)
 	{
-		for (var i=0; i<10; i++)
-		{
-			
-		}
 		instance_destroy()
 	}
 }

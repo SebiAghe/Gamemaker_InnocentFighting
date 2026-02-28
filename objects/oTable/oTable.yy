@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayer2",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oTable",
+  "eventList":[],
   "managed":true,
-  "name":"oPlayer2",
+  "name":"oTable",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player2Logic",
-    "path":"folders/Objects/Player2Logic.yy",
+    "name":"Ground",
+    "path":"folders/Objects/Ground.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"idle2",
-    "path":"sprites/idle2/idle2.yy",
+    "name":"TAIBAL1",
+    "path":"sprites/TAIBAL1/TAIBAL1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

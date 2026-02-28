@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayer2",
+  "%Name":"oPlateW1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oPlayer2",
+  "name":"oPlateW1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player2Logic",
-    "path":"folders/Objects/Player2Logic.yy",
+    "name":"Weapon1",
+    "path":"folders/Objects/Player1Logic/Weapon1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"idle2",
-    "path":"sprites/idle2/idle2.yy",
+    "name":"plate",
+    "path":"sprites/plate/plate.yy",
   },
   "spriteMaskId":null,
   "visible":true,

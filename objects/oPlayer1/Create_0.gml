@@ -1,3 +1,5 @@
+window_set_size(1280, 720);
+
 movement_speed=3
 
 grav = 5
@@ -14,3 +16,6 @@ facing = 1
 
 useless = 0
 
+spawn_timer=0
+
+spawn_timer_p=0
