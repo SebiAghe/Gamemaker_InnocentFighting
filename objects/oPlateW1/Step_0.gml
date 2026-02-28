@@ -14,10 +14,10 @@ if (keyboard_check(ord("S")) && onPlayer)
 if(!onPlayer)
 {
 	xSpeed = 6 * directi
-	move_and_collide(xSpeed,ySpeed,oGround1)
+	move_and_collide(xSpeed,ySpeed,oWall || oGround1)
 }
 
-var on_ground = place_meeting(x+1, y, oGround1) || place_meeting(x-1, y, oGround1)
+var on_ground = place_meeting(x+1, y, oWall) || place_meeting(x-1, y, oWall)
 
 if(!onPlayer && on_ground)
 {

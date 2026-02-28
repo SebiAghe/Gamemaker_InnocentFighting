@@ -2,7 +2,7 @@
 x_speed = 0
 y_speed += 0.1
 
-var on_ground = place_meeting(x, y + 1, oGround1)
+var on_ground = place_meeting(x, y + 1, oGround1) || place_meeting(x-1, y, oWall) || place_meeting(x+1, y, oWall)
 
 
 if(y_speed>max_fall)
@@ -43,6 +43,7 @@ else
 }
 
 move_and_collide(x_speed, y_speed, oGround1)
+move_and_collide(x_speed, y_speed, oWall)
 
 var cupcake_instance = instance_place(x, y, oWeapon)
 
