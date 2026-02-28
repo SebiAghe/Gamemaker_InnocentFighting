@@ -34,6 +34,7 @@
     {"id":{"name":"Arena","path":"rooms/Arena/Arena.yy",},},
     {"id":{"name":"cup","path":"sprites/cup/cup.yy",},},
     {"id":{"name":"cupcake","path":"sprites/cupcake/cupcake.yy",},},
+    {"id":{"name":"ecler","path":"sprites/ecler/ecler.yy",},},
     {"id":{"name":"plate","path":"sprites/plate/plate.yy",},},
     {"id":{"name":"sG1","path":"sprites/sG1/sG1.yy",},},
     {"id":{"name":"sP1","path":"sprites/sP1/sP1.yy",},},
