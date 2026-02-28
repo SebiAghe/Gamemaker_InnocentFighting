@@ -29,7 +29,7 @@
   },
   "name":"Innocent Fighting",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    
     {"id":{"name":"cup","path":"sprites/cup/cup.yy",},},
     {"id":{"name":"cupcake","path":"sprites/cupcake/cupcake.yy",},},
     {"id":{"name":"plate","path":"sprites/plate/plate.yy",},},
