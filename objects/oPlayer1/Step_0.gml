@@ -41,3 +41,11 @@ else
 }
 
 move_and_collide(x_speed, y_speed, oGround1)
+
+var cupcake_instance = instance_place(x, y, oWeapon)
+
+if(cupcake_instance != noone)
+{
+	with(cupcake_instance) instance_destroy()
+	instance_create_layer(x + 4, y + 16, "Instances", oWeaponW1);
+}
