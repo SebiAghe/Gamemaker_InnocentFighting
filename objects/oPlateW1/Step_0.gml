@@ -1,7 +1,10 @@
 if(bool (onPlayer))
 {
-	x = oPlayer1.x;
-	y = oPlayer1.y;
+	if(oPlayer1.facing == 1)
+		x = oPlayer1.x + 10 * oPlayer1.facing;
+	else
+		x = oPlayer1.x + 25 * oPlayer1.facing;
+	y = oPlayer1.y-5;
 }
 
 if (keyboard_check(ord("S")) && onPlayer)
