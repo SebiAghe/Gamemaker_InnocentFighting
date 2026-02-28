@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sG1",
-    "path":"sprites/sG1/sG1.yy",
+    "name":"covor",
+    "path":"sprites/covor/covor.yy",
   },
   "spriteMaskId":null,
   "visible":true,
