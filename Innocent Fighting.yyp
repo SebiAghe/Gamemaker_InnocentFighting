@@ -70,14 +70,15 @@
     {"id":{"name":"sG1","path":"sprites/sG1/sG1.yy",},},
     {"id":{"name":"sP1","path":"sprites/sP1/sP1.yy",},},
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
+    {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
     {"id":{"name":"sptit","path":"sprites/sptit/sptit.yy",},},
     {"id":{"name":"TAIBAL1","path":"sprites/TAIBAL1/TAIBAL1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Arena","path":"rooms/Arena/Arena.yy",},},
     {"roomId":{"name":"title","path":"rooms/title/title.yy",},},
+    {"roomId":{"name":"Arena","path":"rooms/Arena/Arena.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
