@@ -7,8 +7,8 @@ max_fall=8
 y_speed =0
 x_speed =0
 
-jump_hold_time = 0;
-max_jump_hold = 10; 
+jump_hold_time = 0
+max_jump_hold = 10
 
 facing = 1 
 
