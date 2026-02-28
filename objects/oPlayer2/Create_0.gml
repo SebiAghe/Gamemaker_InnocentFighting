@@ -1,4 +1,5 @@
 window_set_size(1280, 720);
+window_set_fullscreen(!window_get_fullscreen());
 
 max_hp = 100
 hp = max_hp

@@ -10,7 +10,7 @@ if(bool (onPlayer2))
 if (keyboard_check(vk_down) && onPlayer2)
 {
 	onPlayer2=0
-	xSpeed2 = 6 * oPlayer2.facing2
+	xSpeed2 = 5 * oPlayer2.facing2
 	directi2 = oPlayer2.facing2
 }
 
